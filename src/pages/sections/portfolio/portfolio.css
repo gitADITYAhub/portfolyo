@@ -1,0 +1,185 @@
+/* #portfolio-wrapper {
+  padding-top: 30px;
+}
+
+#popup-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.popup-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999999;
+  pointer-events: unset !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  width: 100%;
+  max-width: 700px;
+  padding: 10px;
+  border: none;
+  animation: show-popup 0.75s ease forwards;
+}
+@media (max-width: 730px) {
+  .popup-content {
+    width: calc(100% - 40px) !important;
+  }
+}
+@keyframes show-popup {
+  from {
+    opacity: 0.4;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.poped-up-item {
+  display: block;
+  margin-bottom: 0 !important;
+}
+
+.popup-image-box {
+  max-width: 700px;
+  display: block;
+}
+.popup-image-box img {
+  width: 100%;
+}
+
+.close-popup-btn {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  display: inline-block;
+  background-color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.close-popup-btn img {
+  display: block;
+  width: 100%;
+} */
+#portfolio {
+  background-color:#302729;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 15px; /* Adjust padding as needed */
+}
+
+.portfolio-item {
+  width: calc(33.333% - 10px); /* Subtract desired gutter space */
+  margin-bottom: 15px; /* Space between rows */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden; /* Ensures content does not spill outside the item */
+  border-radius: 8px; /* Optional: rounds corners of each portfolio item */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 5px;
+  padding: 10px; /* Optional: adds shadow for depth */
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease; /* Smooth transformation on hover */
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.05); /* Slightly enlarges the image */
+}
+
+.portfolio-item .portfolio-item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.portfolio-item:hover .portfolio-item-overlay {
+  opacity: 1;
+}
+
+.popup-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: unset !important;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px; /* Rounds the corners of the popup */
+  position: relative; /* For positioning the close button */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .portfolio-item {
+    width: calc(50% - 10px); /* 2 in a row */
+  }
+}
+
+@media (max-width: 768px) {
+  #portfolio {
+    padding: 0;
+  }
+
+  .portfolio-item {
+    width: 100%; /* Full width */
+    margin-bottom: 20px;
+  }
+
+  .popup-content {
+    width: calc(100% - 40px); /* Full width with padding */
+  }
+}
+
+.close-popup-btn {
+  background-color: #ffffff; /* Change to fit design */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -15px; /* Adjust as needed */
+  right: -15px; /* Adjust as needed */
+  position: absolute; /* Ensure it's relative to the popup content */
+}
+
+.close-popup-btn img {
+  width: 20px; /* Adjust size of close icon */
+}
+
+.portfolio-grid{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+h2{
+  margin-left: 10px;
+  padding-left: 20px;
+}

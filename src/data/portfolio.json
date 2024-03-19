@@ -1,0 +1,94 @@
+{
+  "filter": [
+    {
+      "category": "all",
+      "text": "All"
+    },
+    {
+      "category": "text",
+      "text": "Text"
+    },
+    {
+      "category": "video",
+      "text": "Video"
+    },
+    {
+      "category": "image",
+      "text": "Image"
+    }
+  ],
+  "portfolioItems": [
+    {
+      "order": 0,
+      "category": "text",
+      "action": {
+        "type": "item",
+        "number": 1
+      },
+      "description": {
+        "text": "Home",
+        "caption": "Text"
+      }
+    },
+    {
+      "order": 1,
+      "category": "text",
+      "action": {
+        "type": "item",
+        "number": 2
+      },
+      "description": {
+        "text": "Stairways",
+        "caption": "Text"
+      }
+    },
+    {
+      "order": 2,
+      "category": "text",
+      "action": {
+        "type": "item",
+        "number": 3
+      },
+      "description": {
+        "text": "Sneakers",
+        "caption": "Text"
+      }
+    },
+    {
+      "order": 3,
+      "category": "video",
+      "action": {
+        "type": "popup",
+        "number": 1
+      },
+      "description": {
+        "text": "Design",
+        "caption": "Video"
+      }
+    },
+    {
+      "order": 4,
+      "category": "image",
+      "action": {
+        "type": "popup",
+        "number": 2
+      },
+      "description": {
+        "text": "Leaf",
+        "caption": "Image"
+      }
+    },
+    {
+      "order": 5,
+      "category": "image",
+      "action": {
+        "type": "popup",
+        "number": 3
+      },
+      "description": {
+        "text": "Bottle",
+        "caption": "Image"
+      }
+    }
+  ]
+}

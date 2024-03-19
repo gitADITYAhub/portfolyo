@@ -1,0 +1,47 @@
+{
+  "navLinks": [
+    {
+      "to": "home",
+      "text": "Home"
+    },
+    {
+      "to": "service",
+      "text": "Service"
+    },
+
+    {
+      "to": "portfolio",
+      "text": "Portfolio"
+    },
+    {
+      "to": "resume",
+      "text": "Resume"
+    },
+    {
+      "to": "skills",
+      "text": "Skills"
+    },
+    {
+      "to": "contact",
+      "text": "Contact"
+    }
+  ],
+  "navInfo": [
+    {
+      "title": "NAME",
+      "text": "Amy Stone"
+    },
+    {
+      "title": "ROLE",
+      "text": "Designer"
+    },
+    {
+      "title": "EMAIL",
+      "text": "stone@example.com"
+    },
+    {
+      "title": "PHONE",
+      "text": "(+987) 987 654 321"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Skills",
+
+  "circleProgress": [
+    {
+      "title": "Photoshop",
+      "percentage": 82
+    },
+    {
+      "title": "Marketing",
+      "percentage": 60
+    },
+    {
+      "title": "PhP",
+      "percentage": 75
+    },
+    {
+      "title": "3D",
+      "percentage": 31
+    }
+  ],
+
+  "horizontalProgress": [
+    {
+      "title": "Creativity",
+      "percentage": 75
+    },
+    {
+      "title": "PhP",
+      "percentage": 90
+    },
+    {
+      "title": "Cooking",
+      "percentage": 48
+    },
+    {
+      "title": "Marketing",
+      "percentage": 62
+    }
+  ]
+}

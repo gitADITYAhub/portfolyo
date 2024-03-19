@@ -1,0 +1,399 @@
+@media screen and (max-width: 1599px) {
+  .content-left {
+    width: 320px;
+  }
+
+  .content-left-wrapper {
+    padding-left: 55px;
+  }
+
+  .content-right {
+    margin-left: 320px;
+    width: calc(100% - 320px);
+  }
+
+  .menu-holder {
+    width: 320px;
+    transform: translateX(-320px);
+    padding-left: 55px;
+  }
+
+  .big-num {
+    width: 320px;
+  }
+
+  .current-big-num {
+    font-size: 130px;
+  }
+
+  .icon-scroll {
+    bottom: 17px;
+  }
+
+  .section {
+    padding-top: 75px;
+  }
+
+  .content-right-wrapper > div:last-of-type {
+    padding-bottom: 75px;
+  }
+
+  .top-pagination,
+  .menu-wrapper {
+    padding-top: 110px;
+  }
+
+  .grid {
+    width: calc(100% + 4vw);
+    margin-left: -2vw;
+  }
+
+  .grid-item {
+    border-width: 1vw;
+  }
+
+  .category-filter {
+    right: -1vw;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1550px) {
+  .button-group-wrapper > .button {
+    display: table;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .button-group-wrapper > a:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .portfolio-text {
+    font-size: 20px;
+  }
+
+  span.skill-circle-num,
+  .skill-percent {
+    font-size: 35px;
+  }
+
+  .skill-percent {
+    margin-top: 11px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .portfolio-content .one-half {
+    margin-bottom: 30px;
+  }
+
+  .content-left {
+    width: 90px;
+  }
+
+  .content-left-wrapper {
+    padding-left: 34px;
+  }
+
+  .content-right {
+    margin-left: 90px;
+    width: calc(100% - 90px);
+  }
+
+  .content-1300 {
+    margin: 0 auto;
+  }
+
+  .top-pagination,
+  .my-info-wrapper,
+  .big-num {
+    display: none;
+  }
+
+  .menu-wrapper {
+    padding-top: 0;
+  }
+
+  .service-holder {
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+  }
+
+  h2.section-title {
+    padding-bottom: 0;
+  }
+
+  .skill-holder {
+    margin-bottom: 0;
+  }
+
+  .skills-holder.sec-skills-holder {
+    margin-top: -60px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .one-half {
+    width: 100%;
+    margin-bottom: 60px;
+    margin-right: 0;
+  }
+
+  .one-half.last {
+    margin-bottom: 0;
+  }
+
+  .one-half > p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .service-holder img {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .content-left {
+    height: 55px;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .toggle-holder {
+    top: 15px;
+    left: 15px;
+  }
+
+  .top-pagination {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 20px;
+    float: right;
+  }
+
+  .content-right {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .service-title {
+    font-size: 25px;
+  }
+
+  .grid {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+
+  .category-filter {
+    right: 0;
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 50% !important;
+    border-width: 15px;
+  }
+
+  .close-icon {
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+  }
+
+  .skill-circle-holder {
+    text-align: center;
+  }
+
+  .skill-circle-holder > div:nth-of-type(2n) {
+    margin-right: 0 !important;
+  }
+
+  .skill-circle {
+    width: auto;
+    width: 44%;
+    margin-bottom: 40px !important;
+    margin-right: 10% !important;
+  }
+
+  .skill-circle-holder > div:nth-last-of-type(-n + 2) {
+    margin-bottom: 0 !important;
+  }
+
+  li.timeline-event {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-height: 880px) {
+  .big-num {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .full-width-section .section-wrapper {
+    height: auto;
+    padding: 75px 5%;
+  }
+
+  .content-right-wrapper > div:first-of-type .section-wrapper {
+    padding-top: 125px;
+  }
+
+  .single-portfolio
+    .content-right-wrapper
+    > div:first-of-type
+    .section-wrapper {
+    padding-top: 55px;
+  }
+
+  .home-left-part {
+    flex: 0 0 100%;
+    margin: 0;
+  }
+
+  .home-right-part {
+    display: none;
+  }
+
+  h1.entry-title {
+    font-size: 50px;
+    line-height: 100%;
+  }
+
+  .site-des {
+    font-size: 20px;
+  }
+
+  .service-holder {
+    margin-bottom: 30px !important;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .services-wrapper > div:last-of-type {
+    margin-bottom: 0 !important;
+  }
+
+  #portfolio-wrapper {
+    margin-top: 30px;
+  }
+
+  .category-filter-list {
+    top: 0;
+  }
+
+  .grid {
+    width: 100%;
+    margin: 0;
+  }
+
+  .category-filter {
+    top: -30px;
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 100% !important;
+  }
+
+  .grid-item {
+    border: 0;
+    margin-bottom: 30px;
+  }
+
+  #portfolio-grid > div:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .timeline-event-content {
+    margin-left: 10px;
+  }
+
+  li.timeline-event {
+    margin-left: 30px;
+  }
+
+  ul.timeline-holder {
+    padding-left: 70px;
+  }
+
+  .timeline-event-date {
+    left: -100px;
+  }
+
+  .skill-holder {
+    margin-bottom: 35px;
+  }
+
+  .skills-holder.sec-skills-holder {
+    margin-top: -25px;
+  }
+
+  .skill-circle-holder {
+    display: block !important;
+  }
+
+  .skill-text {
+    width: 100%;
+  }
+
+  .skill-percent {
+    position: absolute;
+    top: -30px;
+  }
+
+  .skill {
+    margin-bottom: 5px;
+  }
+
+  .contact-form {
+    padding: 7%;
+  }
+
+  .contact-form input[type='submit'] {
+    font-size: 13px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .menu-holder {
+    width: 100%;
+    transform: translateX(-100%);
+    padding-top: 70px;
+    padding-left: 20px;
+    overflow: auto;
+  }
+
+  .button-group-wrapper > a:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .skill-circle-holder > div:nth-of-type(n) {
+    display: table !important;
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .skill-circle-holder > div:nth-last-of-type(2) {
+    margin-bottom: 40px !important;
+  }
+
+  .skill-circle-wrapper canvas {
+    max-width: none;
+    max-height: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .button-group-wrapper > .button {
+    display: table;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}

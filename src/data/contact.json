@@ -1,0 +1,26 @@
+{
+  "title": "Get in touch",
+
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.",
+
+  "paragrapgs": [
+    "Magni dolores eos qui sed quia consequuntur ratione voluptatem sequi nesciunt permano Nence of the stars from which we spring muse about as a patch of light billions upon billions.",
+    "Energy hidden in matter a mote of lorem ipsum dust suspended in a sunbeam billions upon ratione voluptatem sequi nesciunt permano lorem ipsum."
+  ],
+  "contactInfo": [
+    {
+      "title": "ADDRESS",
+      "value": "Some Street 987, USA"
+    },
+    {
+      "title": "EMAIL",
+      "value": "company@youremail.com"
+    },
+    {
+      "title": "WEBSITE",
+      "value": "www.yourwebsite.com"
+    }
+  ],
+
+  "formspreeEndpoint": "https://formspree.io/f/xgebyqqz"
+}
